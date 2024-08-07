@@ -32,8 +32,8 @@ The Kernel module is a crucial component of this simulation, responsible for man
 
 - Start process
   ```bash
-  cd /path/to/tp-so-go/prueba/ejecutablesSH
-  ./crear_proceso.sh pid /path/to/tp-so-go/prueba/scripts_memoria/DESIRE_PROCESS
+  cd /path/to/SO-Panza_Confianza/prueba/ejecutablesSH
+  ./crear_proceso.sh pid /path/to/SO-Panza_Confianza/prueba/scripts_memoria/DESIRE_PROCESS
   ```
 - End process
   ```bash
@@ -254,48 +254,42 @@ DialFS is a simple implementation of a Contiguous Allocation File System, simula
 1. Set up the Linux environment:
    - If using a VM, ensure it's properly configured
 
-2. Install Go:
-  ```bash
-  git clone https://github.com/sisoputnfrba/entorno-vms --depth=1
-  cd entorno-vms
-  sudo bash -x base-server.sh
-  ./golang.sh
-  ```
+2. Install Go
 
 3. Clone the project repository:
   ```bash
- git clone https://github.com/GadStam/tp-so-go.git
+ git clone https://github.com/FaustoOliva/SO-Panza_Confianza.git
   ```
 
 4. Configure IP addresses:
    
    ```bash
-   cd /path/to/tp-so-go/ejecutablesSH
+   cd /path/to/SO-Panza_Confianza/ejecutablesSH
    go run script_ip.go -es "ipIO" -cpu "ipCPU" -kernel "ipKERNEL" -memoria "ipMEMORIA"
     ```
-Note: If running locally, use "localhost" for all modules.
+Note: If running all modules locally, use "localhost" for all modules.
 
 ### Running the Modules
 
 1. KERNEL
  ```bash
   go build -o kernel.exe kernel.go
-./kernel.exe /path/to/tp-so-go/kernel/KERNELconfigs/DESIRED_CONFIG.json
+./kernel.exe /path/to/SO-Panza_Confianza/kernel/KERNELconfigs/DESIRED_CONFIG.json
   ```
 2. CPU
  ```bash
   go build -o cpu.exe cpu.go
-./cpu.exe /path/to/tp-so-go/cpu/CPUconfigs/DESIRED_CONFIG.json
+./cpu.exe /path/to/SO-Panza_Confianza/cpu/CPUconfigs/DESIRED_CONFIG.json
   ```
 3. MEMORY
  ```bash
   go build -o memoria.exe memoria.go
-./memoria.exe /path/to/tp-so-go/memoria/MEMconfigs/DESIRED_CONFIG.json
+./memoria.exe /path/to/SO-Panza_Confianza/memoria/MEMconfigs/DESIRED_CONFIG.json
   ```
 4. I/O (run as needed)
   ```bash
     go build -o entradasalida.exe entradasalida.go
-./entradasalida.exe INTERFACE_NAME /path/to/tp-so-go/entradasalida/ioConfigs/INTERFACE_NAME.json
+./entradasalida.exe INTERFACE_NAME /path/to/SO-Panza_Confianza/entradasalida/ioConfigs/INTERFACE_NAME.json
   ```
 
 
@@ -306,7 +300,7 @@ For a complete list of available tests and their descriptions, please refer to t
 
 1. Navigate to the test scripts folder:
   ```bash
-  cd /path/to/tp-so-go/prueba/scripts_kernel
+  cd /path/to/SO-Panza_Confianza/prueba/scripts_kernel
   ```
 2. Execute the desired test script:
   ```bash
