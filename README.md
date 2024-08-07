@@ -2,6 +2,9 @@
 This project aims to simulate a distributed system, focusing on process scheduling, system request handling, and efficient management of memory and file systems.
 It is the practical work of the subject "Operating Systems" of the "Information Systems Engineering" degree at [UTN](https://github.com/sisoputnfrba). 
 
+[Project Brief](A.L.GO.md)
+[Test documentation](A.L.GO-Pruebas_Finales.md)
+
 ## Kernel - Overview
 The Kernel module is a crucial component of this simulation, responsible for managing the execution of various processes generated through its API.
 
