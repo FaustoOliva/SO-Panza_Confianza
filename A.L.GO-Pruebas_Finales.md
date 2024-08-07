@@ -1,8 +1,8 @@
-***C-Comenta***
+***A.L.GO***
 
 ***Documento de pruebas***
 
-*Solo C que no C nada*
+*¿Cómo se llama un programador Go que no hace nada? ¡Un Go-tón de inacción!*
 
 *![][image1]*
 
@@ -15,7 +15,7 @@ Trabajo práctico Cuatrimestral
 
 # **Aclaraciones**
 
-Todos los scripts para realizar las pruebas que se enumeran en este documento se encuentran subidos al repositorio: [c-comenta-pruebas](https://github.com/sisoputnfrba/c-comenta-pruebas)
+Todos los scripts para realizar las pruebas que se enumeran en este documento se encuentran subidos al repositorio: [a.l.go-pruebas](https://github.com/sisoputnfrba/c-comenta-pruebas)
 
 Dentro de las configuraciones propuestas en cada prueba puede haber casos de algunos procesos que no tengan su respectiva configuración porque son valores que no afectan a la prueba en sí.
 

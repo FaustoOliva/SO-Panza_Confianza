@@ -3,6 +3,7 @@ This project aims to simulate a distributed system, focusing on process scheduli
 It is the practical work of the subject "Operating Systems" of the "Information Systems Engineering" degree at [UTN](https://github.com/sisoputnfrba). 
 
 [Project Brief](A.L.GO.md)
+
 [Test documentation](A.L.GO-Pruebas_Finales.md)
 
 ## Kernel - Overview
